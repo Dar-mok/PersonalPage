@@ -9,7 +9,7 @@
                     .row.justify-content-center
                         .col-lg-8
                             // Portfolio Modal - Title
-                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Log Cabin
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Warbler
                             // Icon Divider
                             .divider-custom
                                 .divider-custom-line
@@ -17,10 +17,18 @@
                                     i.fas.fa-star
                                 .divider-custom-line
                             // Portfolio Modal - Image
-                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/cabin.png', alt='...')
+                            a(href="https://warbler-18df9ff4a9b9.herokuapp.com/" target="_blank")
+                                img.img-fluid.rounded.mb-5(src='assets/img/portfolio/warblerprofile.png', alt='...')
                             // Portfolio Modal - Text
                             p.mb-4
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+                                | Warbler is a Twit-- "X" type social app that allows users to create personal profiles, message other users, and follow other users' posts.
+                                br
+                                br
+                                | Stack:
+                                br
+                                | Jinja / Python Front-End
+                                br
+                                | Flask / Python Backend-End using SQLAlchemy on a PostgreSQL DB
                             button.btn.btn-primary(data-bs-dismiss='modal')
                                 i.fas.fa-xmark.fa-fw
                                 | Close Window
