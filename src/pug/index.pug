@@ -42,10 +42,27 @@ html(lang='en')
                             a.nav-link.py-3.px-0.px-lg-3.rounded(href='#contact') Contact
 
         // Masthead
+        //- header.masthead.bg-primary.text-white.text-center
+        //-     .container.d-flex.align-items-center.flex-column
+        //-         // Masthead Avatar Image
+        //-         img.masthead-avatar.mb-5(src='assets/img/RustyToon.png', alt='...' class="rounded-circle")
+        //-         img.masthead-avatar.mb-5(src='assets/img/RustySciFi.png', alt='...' class="rounded-circle")
+        //-         // Masthead Heading
+        //-         h1.masthead-heading.text-uppercase.mb-0 Rusty Jones
+        //-         // Icon Divider
+        //-         .divider-custom.divider-light
+        //-             .divider-custom-line
+        //-             .divider-custom-icon
+        //-                 i.fas.fa-star
+        //-             .divider-custom-line
+        //-         // Masthead Subheading
+        //-         p.masthead-subheading.font-weight-light.mb-0 Code Connoisseur - Frontend Fanatic - Backend Buff
         header.masthead.bg-primary.text-white.text-center
             .container.d-flex.align-items-center.flex-column
-                // Masthead Avatar Image
-                img.masthead-avatar.mb-5(src='assets/img/avataaars.svg', alt='...')
+                // Group the images
+                .d-flex.justify-content-center.align-items-center
+                    img.masthead-avatar.mb-5(src='assets/img/RustyMonaLisa.png', alt='...' class="rounded-circle")
+                    //- img.masthead-avatar.mb-5(src='assets/img/RustySciFi.png', alt='...' class="rounded-circle")
                 // Masthead Heading
                 h1.masthead-heading.text-uppercase.mb-0 Rusty Jones
                 // Icon Divider
@@ -255,9 +272,9 @@ html(lang='en')
                     // Footer Social Icons
                     .col-lg-4.mb-5.mb-lg-0
                         h4.text-uppercase.mb-4 Around the Web
-                        a.btn.btn-outline-light.btn-social.mx-1(href='https://www.linkedin.com/in/russell--jones/')
+                        a.btn.btn-outline-light.btn-social.mx-1(href='https://www.linkedin.com/in/russell--jones/' target="_blank")
                             i.fab.fa-fw.fa-linkedin-in
-                        a.btn.btn-outline-light.btn-social.mx-1(href='https://github.com/Dar-mok')
+                        a.btn.btn-outline-light.btn-social.mx-1(href='https://github.com/Dar-mok' target="_blank")
                             i.fab.fa-fw.fa-github
 
                     // Footer About Text
