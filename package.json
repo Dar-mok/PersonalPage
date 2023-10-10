@@ -39,6 +39,7 @@
     },
     "dependencies": {
         "bootstrap": "5.2.3",
+        "shelljs": "^0.8.5",
         "bootstrap-icons": "^1.11.1"
     },
     "devDependencies": {
@@ -50,7 +51,6 @@
         "prettier": "2.8.6",
         "pug": "3.0.2",
         "sass": "1.60.0",
-        "shelljs": "^0.8.5",
         "upath": "2.0.1"
     }
 }
