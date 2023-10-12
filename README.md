@@ -44,6 +44,7 @@ Clone the source files of the theme and navigate into the theme's root directory
 - `npm start` or `npm run start` runs the project, launches a live preview in your default browser, and watches for changes made to files in `src`
 
 You must have npm installed in order to use this build environment.
+Testing the rebuild 
 
 ### Contact Form
 
